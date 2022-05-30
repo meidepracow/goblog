@@ -7,6 +7,7 @@ import (
 	"net/url"
 	"unicode/utf8"
 
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 )
 
